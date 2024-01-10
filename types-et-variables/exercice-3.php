@@ -1,9 +1,11 @@
 <?php
-$animal = ["species" => "cochon",
-           "name" => "phillipe",
-           "age" => 95];
 
-print_r ($animal);
+$animal = [
+    "species" => "Snail",
+    "name" => "Joey",
+    "age" => 8
+];
 
+print_r($animal);
 
-?>
+echo "<br>";
